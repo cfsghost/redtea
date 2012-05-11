@@ -1,4 +1,4 @@
-redtea
+RedTea
 ======
 
 RedTea Web Framework
