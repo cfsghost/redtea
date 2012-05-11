@@ -5,6 +5,5 @@ module.exports = {
 
 function index(app, req, res) {
 
-	console.log('Test');
-
+	res.render('index', { title: 'RedTea' });
 };
