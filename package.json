@@ -1,0 +1,29 @@
+{
+	"name": "redtea",
+	"version": "0.0.1",
+	"description": "RedTea Web Framework",
+	"keywords": [
+		"web",
+		"framework"
+	],
+	"homepage": "https://github.com/cfsghost/redtea",
+	"author": {
+		"name": "Fred Chien(錢逢祥)",
+		"email": "fred@mandice.com",
+		"web": "http://people.linux.org.tw/~fred/"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:cfsghost/redtea.git"
+	},
+	"directories": {
+		"tests": "lib"
+	},
+	"engines": {
+		"node": ">= 0.6.0"
+	},
+	"dependencies": {
+	},
+	"main": "./lib/redtea.js"
+}
