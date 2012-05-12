@@ -14,5 +14,13 @@ app.runnerDirs = [
 	__dirname + '/runner'
 ];
 
-app.initRoute().initRender().listen(9876);
+app.apiDirs = [
+	__dirname + '/apis'
+];
+
+app
+	.initRoute()
+	.initRender()
+	.initAPI()
+	.listen(9876);
 //app.initRoute(__dirname + '/routes').listen(9876);
