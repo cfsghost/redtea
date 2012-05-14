@@ -2,21 +2,10 @@ var RedTea = require('../');
 
 var app = new RedTea;
 
-app.routeDirs = [
-	__dirname + '/routes'
-];
-
-app.uiDirs = [
-	__dirname + '/ui'
-];
-
-app.runnerDirs = [
-	__dirname + '/runner'
-];
-
-app.apiDirs = [
-	__dirname + '/apis'
-];
+app.routeDirs.push(__dirname + '/routes');
+app.uiDirs.push(__dirname + '/ui');
+app.runnerDirs.push(__dirname + '/runner');
+app.apiDirs.push(__dirname + '/apis');
 
 var publicData = {
 	users: [],
