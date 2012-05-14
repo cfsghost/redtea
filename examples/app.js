@@ -18,9 +18,13 @@ app.apiDirs = [
 	__dirname + '/apis'
 ];
 
+var publicData = {
+	users: [],
+	conversation: []
+};
+
 app
 	.initRoute()
 	.initRender()
-	.initAPI()
+	.initAPI(publicData)
 	.listen(9876);
-//app.initRoute(__dirname + '/routes').listen(9876);
