@@ -19,8 +19,10 @@ Chat.prototype.getConversation = function(callback) {
 };
 
 Chat.prototype.say = function(name, content) {
-	var line = {};
-	line[name] = content;
+	var line = {
+		name: name,
+		content: content
+	};
 
 	this.publicData.conversation.push(line);
 };

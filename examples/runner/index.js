@@ -10,7 +10,10 @@ RedTea.main(function() {
 	chat.say('Fred', 'Hello World!');
 	chat.say('Fred', 'Hello World!');
 	chat.getConversation(function(err, data) {
-		console.log(data);
+		for (var i in data) {
+			var lineObj = data[0];
+			document.getElementById('conversation').innerHTML += lineObj.name + ':' + lineObj.content + '<br>';
+		}
 	});
 
 });
