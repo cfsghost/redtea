@@ -1,6 +1,9 @@
 RedTea Web Framework
 ===
 
+(I know black tea is the correct name for the type of tea in English, but I think "Red" being funny more than it. Chinese English Joke :-P)
+
+
 An easy-use web framework for _front-end developer_.
 
 RedTea is NOT a MVC web framework, it aims to provide a new way to develop web service without server-side knowledge.
